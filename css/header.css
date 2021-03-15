@@ -35,7 +35,7 @@ div .header{
     width: auto;
     height: 70px;
     grid-area: header;
-    background-color:coral;
+    background-color:rgb(255, 255, 255);
 }
 div .menu{
     height: 65px;
@@ -51,7 +51,6 @@ div .menu_items{
     width: 100;
     width: calc(100%-65px);
     top: -100vh;
-    background-color: aqua;
     text-align: center;
     flex-direction: column;
 }
@@ -67,7 +66,7 @@ div .menu_items li a {
 div .btn_menu{
     margin-right: 30px;
     font-size: 25px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-flex;
     margin: 15px;

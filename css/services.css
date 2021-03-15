@@ -1,0 +1,23 @@
+@import "header.css";
+
+div .services{
+    grid-area: services;
+    width: auto;
+    height: 856px;
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+}
+div .service{
+    background-color: #fff;
+    height: 214px;
+    text-align: center;
+    margin-top: 20px;
+}
+div .service i{
+    color: #bda794;
+    font-size: 3rem;
+}
+div .service-title{
+    font-size: x-large;
+}

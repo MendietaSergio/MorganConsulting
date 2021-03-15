@@ -1,0 +1,29 @@
+@import "header.css";
+div .work-team{
+    grid-area: work-team;
+    width: auto;
+    margin: auto;
+    height: 375px;
+    padding: 10px;
+    background-image: url('../img/pexels-charles-parker-5847563.jpg');
+    background-size: cover;
+    background-position: cover;
+    margin-top: 20px;
+}
+div .work_team_info{
+    margin: 20px;
+    width: 308px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div .work_info_ajustado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}/*
+CAMBIAR LA IMAGEN QUE A LA IZQ SEA MAS CLARA
+POSICIONAR BIEN EL TEXTO
+*/
