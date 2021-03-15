@@ -1,0 +1,50 @@
+@import "header.css";
+
+div .presentation{
+    grid-area: presentation;
+    width: auto;
+    margin: auto;
+    height: 395px;
+    padding: 10px;
+    background-image: url('../img/pexels-the-lazy-artist-gallery-1342609.jpg');
+    background-size: cover;
+    background-position: cover;
+}
+div .presentation_info{
+    margin: 20px;
+    height: 340px;
+    width: 308px;
+    background-color: rgb(30, 54, 132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div .info_ajustado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+div .presentation_info h5{
+    color: #fff;
+}
+div .presentation span{
+    margin-bottom: 15px;
+    color: rgb(99, 99, 99);
+}
+div .presentation button{
+    background-color: #b69f88;
+    color:#fff;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+div .presentation .btn:hover{
+    background-color: #b69f88;
+    border: 1px solid #b69f88;
+}
