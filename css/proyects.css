@@ -28,7 +28,7 @@ div .proyects_info button{
     vertical-align: middle;
     padding: .375rem .75rem;
     font-size: 1rem;
-    border-radius: .25rem;
+    border-radius: 50px;
 }
 div .proyects_info button{
     background-color: #b69f88;

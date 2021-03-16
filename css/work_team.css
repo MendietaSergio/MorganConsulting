@@ -42,7 +42,7 @@ div .work_info_ajustado button{
     vertical-align: middle;
     padding: .375rem .75rem;
     font-size: 1rem;
-    border-radius: .25rem;
+    border-radius: 50px;
 }
 div .work_info_ajustado .btn:hover{
     background-color: #b69f88;
@@ -52,5 +52,14 @@ div .work_info_ajustado .btn:hover{
     div .work-team{
         background-position-y: -218px;
         background-position-x: 150px;
+    }
+}
+@media(min-width:1040px){
+    div .work-team{
+        background-position-y: -300px;
+    }
+    div .work_team_info{
+        width: 400px;
+        margin-left: 90px;
     }
 }

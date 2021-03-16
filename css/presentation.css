@@ -38,7 +38,7 @@ div .presentation button{
     vertical-align: middle;
     padding: .375rem .75rem;
     font-size: 1rem;
-    border-radius: .25rem;
+    border-radius: 50px;
 }
 div .presentation .btn:hover{
     background-color: #b69f88;

@@ -35,3 +35,8 @@ div .clients_title span{
         height: 85%;
     }
 }
+@media (min-width: 1280px){
+    div .clients_div {
+        width: 250px;
+    }
+}

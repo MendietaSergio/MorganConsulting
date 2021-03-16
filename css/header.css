@@ -9,9 +9,12 @@ body{
     background-color: #fff;
 }
 a{
-    color: #55565a;
+    color: black;
     list-style: none;
     text-decoration: none;
+}
+a:hover{
+    color: black;
 }
 ul{
     list-style: none;
@@ -36,6 +39,9 @@ div .header{
     height: 70px;
     grid-area: header;
     background-color:rgb(255, 255, 255);
+}
+div .menu_items_home{
+    color: #b69f88;
 }
 div .menu{
     height: 65px;
@@ -76,28 +82,58 @@ div .btn_menu:hover{
 }
 div .show{
     top: 70px;
-    right: 145px;
+    left: 0px;
     background-color: rgba(139, 139, 139, 0.6);
     text-align: center;
+    position: absolute;
     width: 214px;
 }
 div .header_title{
     width: 60%;
-    color: #b69f88;
-}
-div .header_title h1{ 
     text-align: center;
 }
-div .header_title span{
+div .header_title_MC h1{ 
     color: black;
 }
+div .header_title_MC span{
+    color: #b69f88;
+}
+div .header_title_complete{
+    display: none;
+}
 @media (min-width:768px){
+    div .show{
+        position: relative;
+    }
+    div .menu_items .menu_items_home{
+        color: #b69f88;
+    }
     div .btn_menu{
         display: none;
     }
-    div .header_title{
-        width: 30%;
-        text-align: center;
+    div .menu_items a:hover{
+        background-color: #1e3684;
+        border-radius: 50px;
+        color: #fff;
+    }
+    div .header_title_complete{
+        display: flex;
+        width: 38%;
+        text-align: right;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+        left: 12px;
+    }
+    div .header_title_complete h1{
+        color: black;
+    }
+    div .header_title_complete span{
+        color: #b69f88;
+        padding-left: 8px;
+    }
+    div .header_title_MC{
+        display: none;
     }
     div .menu_items{
         right: 25px;
@@ -109,10 +145,12 @@ div .header_title span{
         color: rgb(66, 66, 66);
     }
     div .menu_items li a {
-        font-size: 18px;
+        font-size: 14px;
         padding: 5px;
     }
 }
-@media (min-with: 1280px){
-    
+@media (min-width: 1040px){
+    div .menu_items li a{
+        font-size: 16px;
+    }
 }

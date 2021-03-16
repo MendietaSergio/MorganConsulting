@@ -32,3 +32,8 @@ div .service p{
         width: 280px;
     }
 }
+@media (min-width: 1040px){
+    div .service{
+        width: 237px;
+    }
+}
