@@ -3,6 +3,17 @@ div .contact{
     grid-area: contact;
     width: auto;
     height: auto;
+}
+div .contact_img{
+    width: 50%;
+    height: auto;
+    background-image: url('../img/brazo_hidraulico.jpg');
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+div .contact_info_form{
+    width: auto;
     background-color: #20377f;
 }
 div .contact_info{
@@ -27,7 +38,7 @@ div .contact form input{
     margin: 0px auto;
     margin-top: 20px;
     background-color: #20377f;
-    width: 200px;
+    width: 50%;
     color: #919191;
     text-align: center;
     border: 1px solid #919191;
@@ -50,4 +61,23 @@ div .contact form button{
 div .contact form .btn:hover{
     background-color: #b69f88;
     border: 1px solid #b69f88;
+}
+@media (min-width: 768px){
+    div .contact{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; 
+    }
+    div .contact_img{
+        display: flex;
+        width: 50%;
+    }
+    div .contact_info_form{
+        width: 50%;
+    }
+    div .contact form input{
+        width: 60%;
+    }   
+
 }

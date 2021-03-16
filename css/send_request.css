@@ -2,9 +2,21 @@ div .send_request{
     grid-area: send_request;
     width: auto;
     height: auto;
+}
+div .send_request_img{
+    width: 50%;
+    height: auto;
+    background-image: url('../img/hombre_celular.jpg');
+    background-size: cover;
+    background-position: center;    
+    display: none;
+}
+div .send_request_info_img{
+    height: auto;
+    width: 100%;
     background-image: url('../img/pexels-negative-space-34092.jpg');
     background-size: cover;
-    background-position: cover;
+    background-position: center;
 }
 div .send_request_info{
     height: 238px;    
@@ -47,4 +59,19 @@ div .info_tight button{
     padding: .375rem .75rem;
     font-size: 1rem;
     border-radius: .25rem;
+}
+@media (min-width: 768px){
+    div .send_request{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; 
+    }
+    div .send_request_img{
+        display: flex;
+        width: 50%;
+    }
+    div .send_request_info_img{
+        width: 50%;
+    }
 }

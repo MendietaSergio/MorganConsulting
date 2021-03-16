@@ -48,3 +48,9 @@ div .work_info_ajustado .btn:hover{
     background-color: #b69f88;
     border: 1px solid #b69f88;
 }
+@media (min-width: 768px){
+    div .work-team{
+        background-position-y: -218px;
+        background-position-x: 150px;
+    }
+}

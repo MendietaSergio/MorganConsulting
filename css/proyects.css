@@ -44,3 +44,14 @@ div .proyects_detail .info_tight h3{
 div .proyects_detail .info_tight p{
     color: #b5b5b5;
 }
+@media (min-width: 768px){
+    div .proyects{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; 
+    }
+    div .info_tight{
+        padding: 30px;
+    }
+}

@@ -9,7 +9,6 @@ div .clients_logos{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
-
 }
 div .clients_div{
     width: 38%;
@@ -29,4 +28,10 @@ div .clients_title h5{
 }
 div .clients_title span{
     color: #b69f88;
+}
+@media (min-width: 768px){
+    div .clients_div img{
+        width: 78%;
+        height: 85%;
+    }
 }
