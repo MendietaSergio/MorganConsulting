@@ -23,3 +23,8 @@ div .service-title{
 div .service p{
     padding: 10px;
 }
+div .service:last-child{
+    margin-bottom: 20px;
+    height: 240px;
+
+}

@@ -28,6 +28,8 @@ div .contact form input{
     margin-top: 20px;
     background-color: #20377f;
     width: 200px;
+    color: #919191;
+    text-align: center;
     border: 1px solid #919191;
 }
 div .contact form button{

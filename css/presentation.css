@@ -11,9 +11,8 @@ div .presentation{
     background-position: cover;
 }
 div .presentation_info{
-    margin: 20px;
-    height: 340px;
-    width: 308px;
+    height: 365px;
+    width: 340px;
     background-color: rgb(30, 54, 132);
     display: flex;
     align-items: center;
