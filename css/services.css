@@ -5,7 +5,6 @@ div .services{
     width: auto;
     height: 856px;
     display: flex;
-    background-color: brown;
     flex-direction: column;
 }
 div .service{
@@ -20,4 +19,7 @@ div .service i{
 }
 div .service-title{
     font-size: x-large;
+}
+div .service p{
+    padding: 10px;
 }

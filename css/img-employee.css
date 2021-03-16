@@ -1,0 +1,16 @@
+@import "header.css";
+
+div .img-employee{
+    grid-area: img-employee;
+    width: auto;
+    margin: auto;
+    height: auto;
+}
+div .img-perfil{
+    width: auto;
+    margin:10px;
+}
+div .img-perfil img{
+   width: 100%;
+   height: auto;
+}

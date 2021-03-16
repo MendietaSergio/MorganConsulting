@@ -27,7 +27,7 @@ div .contenedor{
                         "work-team"
                         "img-employee"
                         "proyects"
-                        "send-request"
+                        "send_request"
                         "contact"
                         "clients";
 }
@@ -83,7 +83,7 @@ div .show{
 }
 div .header_title{
     margin: 27%;
-    color: #bda794;
+    color: #b69f88;
 }
 div .header_title span{
     color: black;

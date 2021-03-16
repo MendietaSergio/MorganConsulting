@@ -1,0 +1,46 @@
+div .proyects{
+    grid-area: proyects;
+    width: auto;
+    height: auto;
+}
+div .proyects_info{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div .info_tight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+div .proyects_info .info_tight h5{
+    color: black;
+}
+div .proyects_info button{
+    background-color: #b69f88;
+    color:#fff;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+div .proyects_info button{
+    background-color: #b69f88;
+    border: 1px solid #b69f88;
+}
+div .proyects_detail{
+    height: 200px;
+}
+div .proyects_detail .info_tight h3{
+    color: #b69f88;
+    font-size: 4.3rem;
+}
+div .proyects_detail .info_tight p{
+    color: #b5b5b5;
+}

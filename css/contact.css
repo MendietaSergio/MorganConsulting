@@ -1,0 +1,51 @@
+div .contact{
+    margin-top: 40px;
+    grid-area: contact;
+    width: auto;
+    height: auto;
+    background-color: #20377f;
+}
+div .contact_info{
+    text-align: center;
+    padding: 60px 10px 0px 10px;
+}
+div .contact_info h2{
+    color: #fff;
+    font-size: 2rem;
+}
+div .contact_info h6{
+    color: #fff;
+}
+div .contact_info span{
+    font-size: 13px;
+}
+div .contact form{
+    text-align: center;
+    margin-top: 10px;
+}
+div .contact form input{
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #20377f;
+    width: 200px;
+    border: 1px solid #919191;
+}
+div .contact form button{
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #b69f88;
+    color:#fff;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+div .contact form .btn:hover{
+    background-color: #b69f88;
+    border: 1px solid #b69f88;
+}
