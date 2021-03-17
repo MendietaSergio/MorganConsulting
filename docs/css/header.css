@@ -102,9 +102,6 @@ div .header_title_complete{
     display: none;
 }
 @media (min-width:768px){
-    div .show{
-        position: relative;
-    }
     div .menu_items .menu_items_home{
         color: #b69f88;
     }
